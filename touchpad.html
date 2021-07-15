@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lavender Town - O jogo</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lavender Town - O jogo (touchpad)</h1>
+        <br>
+        <div class="flexbox">
+            <p>Acerte o fantasma correto e passe das 10 fases para salvar Lavender Town.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="flexbox">
+            <section>
+                <img class="tamanho200 vector" src="./img/ghost.png" alt="">
+                <div class="flexbox">
+                    <p id="marcadorFase">Fase 0</p>
+                </div>
+                <div class="flexbox">
+                    <P id="counter">00:00</P>
+                </div>
+            </section>
+            <section>
+                <div class="flexbox">
+                    <canvas id="canvas" width="600" height="400"></canvas>
+                </div>
+            </section>
+            <section>
+                <img class="tamanho200 vector" src="./img/ghost.png" alt="">
+                <br>
+                <div class="centralizarTexto">
+                    <audio id="audio">
+                        <source src="./audio/song.mp3" type="audio/mpeg">
+                    </audio>
+                    <button id="playPauseBTN">Tocar música &#9658</button>
+                </div>
+            </section>
+        </section>
+        <section>
+            <div class="flexbox">
+                <p><a href="./index.html">Versão padrão</a></p>
+            </div>
+        </section>
+    </main>
+
+
+    <audio id="risada">
+        <source src="./audio/risada.wav" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>
+
+<script src="./js/main.js"></script>

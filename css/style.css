@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* PALETA DE CORES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 10px;
+    background: #161516;
+    color: violet;
+
+}
+
+h1 {
+    color: #b331eb;
+    text-align: center;
+    font-family: 'Noto sans', 'Arial';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+
+p {
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+
+.caixaCentral {
+    background-color: #e0d7d7;
+    color: black;
+    width: 610px;
+    padding: 40px 60px;
+    margin: 30px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px gray;
+}
+
+.centralizarTexto {
+    text-align: center;
+}
+
+
+/* CONFIGURAÇÕES DE IMAGENS */
+img {
+    height: 400px;
+    margin: 10px 50px 30px;
+    box-shadow: 1px 1px 10px 2px gray;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.opaca {
+    opacity: 0.8;
+}
+
+.vector {
+    border: 0px solid black;
+    box-shadow: none;
+}
+
+.tamanho200 {
+    height: 200px;
+}
+
+.tamanho250 {
+    height: 250px;
+}
+
+.tamanho300 {
+    height: 300px;
+}
+
+.tamanho350 {
+    height: 350px;
+}
+
+.tamanho450 {
+    height: 450px;
+}
+
+#playPauseBTN {
+    color: #000000;
+    font-weight: bold;
+    padding: 6px;
+    border: 1px groove silver;
+    border-radius: 5px;
+    background-image: linear-gradient(silver, #b331eb);
+}
+
+#playPauseBTN:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-image: linear-gradient(#000000, #b331eb);
+}
+
+#canvas{
+    border: 5px solid #5c4507;
+    border-radius: 10px;
+    background-color: silver;
+    margin-top: 20px;
+    background-image: url(../img/cidade2.png);
+    background-size: cover;
+} 
+
+a {
+    color: #384cfd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(250, 127, 250);
+}
