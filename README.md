@@ -1,4 +1,4 @@
-# Jogo "Lavender Town"
+# Jogo "Lavender Town" 👻
 
 ## 📝 Descrição
 
