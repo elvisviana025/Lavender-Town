@@ -14,10 +14,10 @@ O jogo foi inspirado na cidade "Lavender Town" dos jogos Pokémon, que é assomb
 
 ## 🎨 Design
 ### Paleta de cores:
-* ![#b331eb](https://via.placeholder.com/15/b331eb/000000?text=+) `#b331eb` roxo
-* ![#ee82ee](https://via.placeholder.com/15/ee82ee/000000?text=+) `#262526` violeta
-* ![#161516](https://via.placeholder.com/15/161516/000000?text=+) `#161516` preto
 
+- ![#b331eb](https://via.placeholder.com/15/b331eb/b331eb.png) `#b331eb` roxo
+- ![#ee82ee](https://via.placeholder.com/15/ee82ee/ee82ee.png) `#ee82ee` violeta
+- ![#161516](https://via.placeholder.com/15/161516/161516.png) `#161516` preto
 
 ### Fonte:
 * 'Arial'
